@@ -34,7 +34,7 @@ ul li {
     width: max-content
 }
 
-.header *, .introduction *, .products *, .reviews * {
+.header *, .introduction *, .products *, .reviews *, .contact * {
     border: 1px solid transparent;
     padding: 5px;
 }
@@ -55,7 +55,7 @@ h1 {
 }
 
 button {
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #3882f6;
     color: #e5e7eb
 }
@@ -94,4 +94,24 @@ button {
 .reviewer {
     font-style: none;
     font-weight: bold;
+}
+
+.contact {
+    margin: 20px 40px;
+    background-color: #3882f6;
+}
+
+.contact h3 {
+    color: #f9faf8;
+}
+
+.contact p {
+    color: #e5e7eb
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
 }
