@@ -34,7 +34,7 @@ ul li {
     width: max-content
 }
 
-.header *, .introduction *, .products * {
+.header *, .introduction *, .products *, .reviews * {
     border: 1px solid transparent;
     padding: 5px;
 }
@@ -71,9 +71,27 @@ button {
 
 .card {
     text-align: center;
-    border: 0.5px solid lightgray;
+    border: 3px solid #3882f6;
+    border-radius: 25px;;
 }
 
 .card:hover {
-    background-color: lightslategray;
+    background-color: lightgray;
+}
+
+.reviews {
+    margin: 20px auto;
+    background-color: #e5e7eb;
+}
+
+.review, .reviewer {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #1f2937;
+}
+
+.reviewer {
+    font-style: none;
+    font-weight: bold;
 }
