@@ -4,12 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 html {
     font-size: 16px;
-    font-family: Roboto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .header {
@@ -25,16 +24,16 @@ ul {
     gap: 5px;
 }
 
-ul a {
+ul a, .header a {
     color: #e5e7eb;
     text-decoration: none;
 }
 
 ul li {
-    width: max-content
+    width: max-content;
 }
 
-.header *, .introduction *, .products *, .reviews *, .contact * {
+.header *, .introduction *, .products *, .reviews *, .contact *, footer *, main * {
     border: 1px solid transparent;
     padding: 5px;
 }
@@ -49,7 +48,7 @@ h1 {
 
 .introduction {
     display: flex;
-    align-items: center;;
+    align-items: center;
     background-color: #1f2937;
     justify-content: space-around;
 }
@@ -57,7 +56,8 @@ h1 {
 button {
     border-radius: 5px;
     background-color: #3882f6;
-    color: #e5e7eb
+    color: #e5e7eb;
+    cursor: pointer;
 }
 
 .products {
@@ -72,7 +72,7 @@ button {
 .card {
     text-align: center;
     border: 3px solid #3882f6;
-    border-radius: 25px;;
+    border-radius: 25px;
 }
 
 .card:hover {
@@ -106,7 +106,7 @@ button {
 }
 
 .contact p {
-    color: #e5e7eb
+    color: #e5e7eb;
 }
 
 .contact {
@@ -114,4 +114,13 @@ button {
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
+}
+
+footer {
+    font-size: small;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
 }
