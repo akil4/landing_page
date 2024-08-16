@@ -34,16 +34,28 @@ ul li {
     width: max-content
 }
 
-.header * {
-    border: 1px transparent;
+.header *, .introduction * {
+    border: 1px solid transparent;
     padding: 5px;
 }
 
-.heading {
+h1 {
     color: #f9faf8;
 }
 
-.logo {
+.logo, .intro-container p {
     color: #e5e7eb;
 }
 
+.introduction {
+    display: flex;
+    align-items: center;;
+    background-color: #1f2937;
+    justify-content: space-around;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #e5e7eb
+}
