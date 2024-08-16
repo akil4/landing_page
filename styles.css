@@ -34,7 +34,7 @@ ul li {
     width: max-content
 }
 
-.header *, .introduction * {
+.header *, .introduction *, .products * {
     border: 1px solid transparent;
     padding: 5px;
 }
@@ -58,4 +58,22 @@ button {
     border-radius: 10px;
     background-color: #3882f6;
     color: #e5e7eb
+}
+
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    border: 0.5px solid lightgray;
+}
+
+.card:hover {
+    background-color: lightslategray;
 }
